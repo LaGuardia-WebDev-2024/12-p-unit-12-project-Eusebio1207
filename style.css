@@ -11,4 +11,20 @@ img{
 
 h1 {
   font-family: "Poetsen One", sans-serif;
+   color: rgb(100, 200, 10);
+}
+
+#mem1{
+  color: rgb(0, 200, 67)
+}
+
+#mem2{
+  color: rgb(100, 20, 67)
+}
+#mem3{
+  color: rgb(10, 20, 250)
+}
+
+span{
+  color: rgb(10, 200, 20)
 }

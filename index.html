@@ -1,7 +1,7 @@
 <!-- Unit 12 Project
 Requirements
 [  ] $() Select by Element, ID AND Class 
-[  ] Use Three Different jQuery Methods 
+[  ] Use Three Different                    Methods 
 [  ] Add Five CSS Declarations
 [  ] Include Three Images
 
@@ -25,6 +25,25 @@ Select ONE Additional
     <button id="mem1-button">Memory #1</button>
     <button id="mem2-button">Memory #2</button>
     <button id="mem3-button">Memory #3</button>
+   
+    <h2>
+      BRUHHHH
+    </h2>
+        <img
+             id ="bruh"
+      src = "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_16x9.jpg?w=1200"
+      width = "100"
+    style="display: none"
+    >
+    
+    <img
+      src = "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_16x9.jpg?w=1200"
+             width = "70">
+     <img
+      src = "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_16x9.jpg?w=1200"
+             width = "50">
+  
+           
     <h1>My Top 3 Memories of <span>This Year</span></h1>
     <ol>
       <li>
@@ -34,11 +53,13 @@ Select ONE Additional
 
       <li>
         <h3 id="mem2">Memory #2</h3>
+        <h3 id="page-heading">Time</h3>
         <p>More about this memory.</p>
       </li>
 
       <li>
         <h3 id="mem3">Memory #3</h3>
+         <h3 class ="stephencurry">food</h3>
         <p>More about this memory</p>
       </li>
     </ol>
@@ -47,15 +68,32 @@ Select ONE Additional
     <script>
       $("#mem1-button").click(function () {
         $("#mem1").css("color", "purple");
+        $("#page-heading").text("LEBRARO IS KING");
+        $("#bruh").show(1000);
       });
 
       $("#mem2-button").click(function () {
         $("#mem2").css("color", "blue");
+         $("li").text("bruh")
+        
+        
+        
       });
 
       $("#mem3-button").click(function () {
         $("#mem3").css("color", "green");
+        $(".stephencurry").text("Norway");
       });
+      
+      $("h1").html("<u>Canteloup</u>");
+      $("p").html("I LOVE CANTELOUPES YUP!!!!");
+      $("p").css("color", "rgb(200, 30, 150)")
+      
+    <img
+      src = "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_16x9.jpg?w=1200"
+      
+      
+      
     </script>
   </body>
 </html>
